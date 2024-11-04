@@ -101,3 +101,18 @@
   - Tampilan bukti pembayaran untuk diverifikasi.
   - Status transaksi diperbarui menjadi "terverifikasi" setelah admin melakukan verifikasi.
   - Notifikasi berhasil atau gagal dalam verifikasi.
+
+# Rancangan Input/Output 
+
+| **Fitur**                             | **Input**                                                                                     | **Output**                                                                                     |
+|---------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **Registrasi**                        | Nama, KTP, Email, Alamat, Telepon, Foto KTP, Username, Password                              | Notifikasi registrasi berhasil/gagal, halaman login                                           |
+| **Login**                             | Username, Password                                                                            | Notifikasi login berhasil/gagal, akses ke halaman utama                                      |
+| **Pencarian Motor**                  | Jenis, merk, harga, status                                                                   | Daftar motor yang sesuai kriteria                                                              |
+| **Transaksi Penyewaan**               | Tanggal sewa, tanggal kembali, jaminan, metode pembayaran, bukti pembayaran                  | Ringkasan transaksi, notifikasi berhasil/gagal, kode transaksi                                 |
+| **Riwayat Transaksi**                 | Tidak ada                                                                                     | Daftar riwayat transaksi, detail transaksi                                                    |
+| **Manajemen Pengguna (Admin)**       | Data pengguna, tindakan (aktivasi, deaktivasi, hapus)                                       | Daftar pengguna, notifikasi berhasil/gagal                                                    |
+| **Manajemen Motor (Admin)**          | Data motor baru, tindakan (edit, hapus)                                                     | Daftar motor, notifikasi berhasil/gagal                                                       |
+| **Manajemen Transaksi (Admin)**      | Kode transaksi, tindakan (verifikasi, pembatalan)                                           | Daftar transaksi, notifikasi perubahan status                                                 |
+| **Laporan dan Statistik (Admin)**    | Periode waktu, kategori laporan                                                               | Laporan transaksi/pendapatan dalam bentuk tabel atau grafik, opsi unduh                      |
+| **Verifikasi Pembayaran**             | Kode transaksi, bukti pembayaran                                                              | Tampilan bukti pembayaran, notifikasi berhasil/gagal, status transaksi terverifikasi          |
