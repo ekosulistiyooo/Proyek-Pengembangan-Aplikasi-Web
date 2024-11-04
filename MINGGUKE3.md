@@ -102,7 +102,7 @@
   - Status transaksi diperbarui menjadi "terverifikasi" setelah admin melakukan verifikasi.
   - Notifikasi berhasil atau gagal dalam verifikasi.
 
-# Rancangan Input/Output 
+
 
 | **Fitur**                             | **Input**                                                                                     | **Output**                                                                                     |
 |---------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
