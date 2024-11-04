@@ -1,4 +1,5 @@
 # Rancangan Database
+![Deskripsi Gambar](rentalmotorf.png)
 
 # Rancangan Input/Output
 
